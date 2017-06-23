@@ -33,7 +33,6 @@ class Pdns < Formula
   depends_on "openssl"
   depends_on "sqlite"
   depends_on :postgresql => :optional
-  
   def install
     args = %W[
       --prefix=#{prefix}
